@@ -1,0 +1,29 @@
+//Push Button buzzer prototype
+//Anirudh Upadhya
+
+
+int buttonPin = 2; 
+int buzPin = 8; 
+int buttonState = 0;
+
+
+void setup()
+{
+  pinMode(buzPin , OUTPUT); 
+  pinMode (buttonPin , INPUT); 
+}
+
+void loop()
+{
+  buttonState = digitalRead (buttonPin); 
+  if ( buttonState ==HIGH ){ 
+  digitalWrite(buzPin , HIGH); 
+   delay(100);
+    digitalWrite(buzPin , LOW);
+    delay(100);
+  }
+  else {
+    digitalWrite (buzPin , LOW ); 
+  }
+    
+}
