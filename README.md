@@ -86,11 +86,12 @@ The Arduino’s PWM pin 13 is connected to LED and pin 2 is connected to push bu
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+During the course of development, the tests can be broken down to many phases.
+1. Simulation using Tinkercad.[Tinkercad](https://www.tinkercad.com/things/himwlsarHmG/)
+2. Basic circuit using LED and Arduino.[PushButtonLED](https://github.com/anirudh-upadhya/InteractiveSystems2020/tree/master/tests/PushButtonLED/)
+3. Pressure sensor sensitivity checks.
+4. Fabric Push button and LED.
+5. Fabric Push button and Buzzer.
 
 ### And coding style tests
 
@@ -107,21 +108,19 @@ This project can be deployed in all hospitals. It can be integrated to their sys
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/anirudh-upadhya/InteractiveSystems2020/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Anirudh Upadhya** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Anirudh Upadhya** - [anirudh-upadhya](https://github.com/anirudh-upadhya)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Saarland University - see the [LICENSE.md](https://github.com/anirudh-upadhya/InteractiveSystems2020/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
